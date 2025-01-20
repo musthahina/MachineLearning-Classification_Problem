@@ -12,11 +12,11 @@ This project demonstrates the implementation and comparison of several classific
 ## Introduction
 The goal of this project is to implement and evaluate the performance of five popular classification algorithms:
 
-1.** Logistic Regression **
-Decision Tree Classifier
-Random Forest Classifier
-Support Vector Machine (SVM)
-k-Nearest Neighbors (k-NN)
+1.Logistic Regression \
+2.Decision Tree Classifier\
+3.Random Forest Classifier\
+4.Support Vector Machine (SVM)\
+5.k-Nearest Neighbors (k-NN)\
 Each algorithm is applied to the Breast Cancer dataset, and the results are compared based on accuracy and classification reports.
 
 Dataset
