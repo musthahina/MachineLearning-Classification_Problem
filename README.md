@@ -12,7 +12,7 @@ This project demonstrates the implementation and comparison of several classific
 ## Introduction
 The goal of this project is to implement and evaluate the performance of five popular classification algorithms:
 
-Logistic Regression
+1.** Logistic Regression **
 Decision Tree Classifier
 Random Forest Classifier
 Support Vector Machine (SVM)
