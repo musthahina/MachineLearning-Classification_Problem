@@ -22,8 +22,8 @@ Each algorithm is applied to the Breast Cancer dataset, and the results are comp
 ## **Dataset**
 This project uses the Breast Cancer dataset from sklearn. It contains features computed from breast cancer cell nuclei, which are used to predict whether a tumor is malignant or benign.
 
-Target: The target variable (y) indicates whether a tumor is malignant (1) or benign (0).
-Features: The dataset contains 30 features that describe characteristics of the cell nuclei, such as radius, texture, smoothness, etc.
+**Target:** The target variable (y) indicates whether a tumor is malignant (1) or benign (0).\
+**Features:** The dataset contains 30 features that describe characteristics of the cell nuclei, such as radius, texture, smoothness, etc.
 ## **Preprocessing**
 
 - **Loading the Data:** The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.\
