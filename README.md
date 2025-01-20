@@ -25,11 +25,10 @@ This project uses the Breast Cancer dataset from sklearn. It contains features c
 Target: The target variable (y) indicates whether a tumor is malignant (1) or benign (0).
 Features: The dataset contains 30 features that describe characteristics of the cell nuclei, such as radius, texture, smoothness, etc.
 ## Preprocessing
-In this step, we performed the following preprocessing tasks:
 
-Loading the Data: The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.
-Handling Missing Values: There were no missing values in this dataset.
-Feature Scaling: StandardScaler was used to scale the features. This step is necessary because many machine learning models (like SVM and k-NN) are sensitive to the scale of input features.
+Loading the Data: The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.\
+Handling Missing Values: There were no missing values in this dataset.\
+Feature Scaling: StandardScaler was used to scale the features. This step is necessary because many machine learning models (like SVM and k-NN) are sensitive to the scale of input features.\
 Train-Test Split: The data is split into training and testing sets (80% training, 20% testing).
 ## Classification Algorithms
 The following classification algorithms were implemented:
