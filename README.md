@@ -37,10 +37,10 @@ Features: The dataset contains 30 features that describe characteristics of the 
 ## **Classification Algorithms**
 The following classification algorithms were implemented:
 
-**1. Logistic Regression**
+**1. Logistic Regression**\
 Logistic Regression is a linear model used for binary classification. It predicts the probability of a binary outcome using the logistic (sigmoid) function.
 
-**2. Decision Tree Classifier**
+**2. Decision Tree Classifier**\
 A Decision Tree is a non-linear model that splits the dataset into subsets based on feature values. It builds a tree-like structure for decision-making.
 
 **3. Random Forest Classifier**
