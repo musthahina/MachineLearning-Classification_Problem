@@ -2,12 +2,12 @@
 This project demonstrates the implementation and comparison of several classification algorithms on the Breast Cancer dataset from the sklearn library. The objective is to evaluate the performance of different classification algorithms using metrics such as accuracy and classification reports.
 
 ## Table of Contents
-### Introduction
-### Dataset
-### Preprocessing
-### Classification Algorithms
-### Model Comparison
-### Installation
+#### Introduction
+#### Dataset
+#### Preprocessing
+#### Classification Algorithms
+#### Model Comparison
+#### Installation
 
 ## Introduction
 The goal of this project is to implement and evaluate the performance of five popular classification algorithms:
