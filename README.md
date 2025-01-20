@@ -7,7 +7,6 @@ This project demonstrates the implementation and comparison of several classific
 #### Preprocessing
 #### Classification Algorithms
 #### Model Comparison
-#### Installation
 
 ## **Introduction**
 The goal of this project is to implement and evaluate the performance of five popular classification algorithms:
@@ -55,11 +54,3 @@ k-NN is a simple algorithm that classifies a data point based on the majority cl
 ## **Model Comparison**
 After training and evaluating the models, their performance was compared using accuracy scores and classification reports. The **LogisticRegression** performed the best with an accuracy of **98%**, while the **Decision Tree Classifier** performed the worst with an accuracy of **93%**.
 
-## **Installation**
-To run this project, you will need to have Python installed along with the necessary libraries.\
-You can install the required libraries using the following command:\
-pip install -r requirements.txt
-Required Libraries:
-scikit-learn
-pandas
-matplotlib
