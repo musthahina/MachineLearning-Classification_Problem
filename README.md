@@ -26,13 +26,13 @@ This project uses the Breast Cancer dataset from sklearn. It contains features c
 **Features:** The dataset contains 30 features that describe characteristics of the cell nuclei, such as radius, texture, smoothness, etc.
 ## **Preprocessing**
 
-- **Loading the Data:** The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.\
-- **Handling Missing Values:** While no missing values exist in this dataset, a check is performed for real-world readiness.\
-- **Duplicate Rows:** Identify and remove duplicates (if any) to avoid bias in the model.\
-- **Removing Outliers:** Outliers are detected using the IQR method and removed to improve model performance.\
-- **Skewness:** Highly skewed features are transformed (e.g., using yeo-johnson).\
-- **Feature Selection:** Highly correlated features are removed to prevent multicollinearity.\
-- **Feature Scaling:** StandardScaler was used to scale the features. This step is necessary because many machine learning models (like SVM and k-NN) are sensitive to the scale of input features.\
+- **Loading the Data:** The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.
+- **Handling Missing Values:** While no missing values exist in this dataset, a check is performed for real-world readiness.
+- **Duplicate Rows:** Identify and remove duplicates (if any) to avoid bias in the model.
+- **Removing Outliers:** Outliers are detected using the IQR method and removed to improve model performance.
+- **Skewness:** Highly skewed features are transformed (e.g., using yeo-johnson).
+- **Feature Selection:** Highly correlated features are removed to prevent multicollinearity.
+- **Feature Scaling:** StandardScaler was used to scale the features. This step is necessary because many machine learning models (like SVM and k-NN) are sensitive to the scale of input features.
 - **Train-Test Split:** The data is split into training and testing sets (80% training, 20% testing).
 ## **Classification Algorithms**
 The following classification algorithms were implemented:
