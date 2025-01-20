@@ -19,19 +19,19 @@ The goal of this project is to implement and evaluate the performance of five po
 5.k-Nearest Neighbors (k-NN)\
 Each algorithm is applied to the Breast Cancer dataset, and the results are compared based on accuracy and classification reports.
 
-Dataset
+## Dataset
 This project uses the Breast Cancer dataset from sklearn. It contains features computed from breast cancer cell nuclei, which are used to predict whether a tumor is malignant or benign.
 
 Target: The target variable (y) indicates whether a tumor is malignant (1) or benign (0).
 Features: The dataset contains 30 features that describe characteristics of the cell nuclei, such as radius, texture, smoothness, etc.
-Preprocessing
+## Preprocessing
 In this step, we performed the following preprocessing tasks:
 
 Loading the Data: The dataset is loaded using the load_breast_cancer() function from sklearn.datasets.
 Handling Missing Values: There were no missing values in this dataset.
 Feature Scaling: StandardScaler was used to scale the features. This step is necessary because many machine learning models (like SVM and k-NN) are sensitive to the scale of input features.
 Train-Test Split: The data is split into training and testing sets (80% training, 20% testing).
-Classification Algorithms
+## Classification Algorithms
 The following classification algorithms were implemented:
 
 1. Logistic Regression
@@ -49,15 +49,11 @@ SVM is a powerful classification model that finds the optimal hyperplane to sepa
 5. k-Nearest Neighbors (k-NN)
 k-NN is a simple algorithm that classifies a data point based on the majority class of its k nearest neighbors in the feature space.
 
-Model Comparison
+## Model Comparison
 After training and evaluating the models, their performance was compared using accuracy scores and classification reports. The Random Forest Classifier performed the best with an accuracy of 97%, while the Decision Tree Classifier performed the worst with an accuracy of 91%.
 
-Installation
+## Installation
 To run this project, you will need to have Python installed along with the necessary libraries. You can install the required libraries using the following command:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 Required Libraries:
 scikit-learn
