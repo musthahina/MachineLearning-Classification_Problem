@@ -50,7 +50,7 @@ SVM is a powerful classification model that finds the optimal hyperplane to sepa
 k-NN is a simple algorithm that classifies a data point based on the majority class of its k nearest neighbors in the feature space.
 
 ## Model Comparison
-After training and evaluating the models, their performance was compared using accuracy scores and classification reports. The Random Forest Classifier performed the best with an accuracy of 97%, while the Decision Tree Classifier performed the worst with an accuracy of 91%.
+After training and evaluating the models, their performance was compared using accuracy scores and classification reports. The LogisticRegression performed the best with an accuracy of 98%, while the Decision Tree Classifier performed the worst with an accuracy of 93%.
 
 ## Installation
 To run this project, you will need to have Python installed along with the necessary libraries. You can install the required libraries using the following command:
